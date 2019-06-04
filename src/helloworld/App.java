@@ -5,10 +5,10 @@ import java.util.Map;
 
 public class App {
 	
-	Map<String,String> appMap = new HashMap<String,String>();
+	private Map<String,String> appMap = new HashMap<String,String>();
 	
-	public void hello() {
-		System.out.println("Hello world to the standard out.");
+	public String hello() {
+		return "Hello world to the standard out.";
 	}
 	
 	
